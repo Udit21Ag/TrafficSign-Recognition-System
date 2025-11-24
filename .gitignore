@@ -14,5 +14,4 @@ venv/
 env/
 .venv/
 ENV/
-!*.zip
 German Dataset.zip
