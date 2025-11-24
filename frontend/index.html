@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Traffic Sign Classifier</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>🚦 Traffic Sign Classifier</h1>
+			<p class="subtitle">Upload an image to identify the traffic sign</p>
+
+			<div class="upload-box">
+				<label for="imageInput" class="upload-label"
+					>Choose Image</label
+				>
+				<input type="file" id="imageInput" accept="image/*" />
+			</div>
+
+			<img id="preview" class="preview" style="display: none" />
+
+			<h2 id="result" class="result"></h2>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
